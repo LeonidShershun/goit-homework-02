@@ -1,0 +1,90 @@
+:root {
+  /* виношу кольори*/
+  --had-color: ;
+  --hh-menu-color: #2E2F42;
+  --phone-paragraf-color: #434455;
+  --hero-fut-color: ;
+  --button-color: #4D5AE5;
+  --text-fut-color: ;
+  }
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--hh-color);
+  text-align: center;
+}
+.logo-Raleway {
+  font-family: "Raleway";
+  
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+/* ol, ul { list-style: none; } */
+.p-col {
+  color: var(--phone-paragraf-color);
+}
+.web-blue {
+  color: var(--had-color);
+}
+.zero {
+  text-decoration: none;
+  list-style: none;
+  font-style: normal;
+}
+.text-index {
+  width: 696px;
+  color: var(--text-fut-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  /* or 136% */
+}
+.hero-index {
+  background: var(--hero-fut-color);
+  text-align: center;
+}
+
+.activ-button:hover,
+.activ-button:focus {
+  color: var(--had-color);
+}
+.text-navi {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.text-foot {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.hero-button {
+  /* position: absolute; */
+  width: 216px;
+  height: 50px;
+  left: 692px;
+  top: 430px;
+  background: var(--had-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--text-fut-color);
+}
+footer {
+  text-align: left;
+  text-decoration-color: var(--text-fut-color);
+  background: var(--hero-fut-color);
+}
+.text-white {
+  color: var(--text-fut-color);
+}
+.text-white-m {
+  color: var(--text-fut-mailphone-color);
+}
