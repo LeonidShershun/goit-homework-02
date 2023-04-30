@@ -3,9 +3,10 @@
   --had-color: ;
   --hh-menu-color: #2E2F42;
   --phone-paragraf-color: #434455;
-  --hero-fut-color: ;
+  --hero-fut-color: #2E2F42;
+  --hero-text-color: #FFFFFF
   --button-color: #4D5AE5;
-  --text-fut-color: ;
+  --text-fut-color: #F4F4FD;
   }
 body {
   font-family: "Roboto", "Raleway", sans-serif;
@@ -14,10 +15,9 @@ body {
 }
 .logo-Raleway {
   font-family: "Raleway";
-  
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -27,7 +27,7 @@ body {
   color: var(--phone-paragraf-color);
 }
 .web-blue {
-  color: var(--had-color);
+  color: var(--button-color);
 }
 .zero {
   text-decoration: none;
@@ -35,16 +35,35 @@ body {
   font-style: normal;
 }
 .text-index {
-  width: 696px;
-  color: var(--text-fut-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: calc(60 / 44);
-  /* or 136% */
+  /* Effective Solutions for Your Business */
+  
+  
+    /* position: absolute;
+    width: 496px;
+    height: 120px;
+    left: 472px;
+    top: 260px; */
+  
+    /* Header 1 */
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    /* or 107% */
+  
+    text-align: center;
+    letter-spacing: 0.02em;
+  
+    /* WHITE */
+  
+    color:#FFFFFF;
+ 
 }
 .hero-index {
   background: var(--hero-fut-color);
-  text-align: center;
+  
 }
 
 .activ-button:hover,
@@ -58,10 +77,16 @@ body {
   letter-spacing: 0.02em;
 }
 .text-foot {
+  color: var(--text-fut-color);
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
+  height: 72px;
+  width: 264px;
+  left: 156px;
+  top: 2420px;
+  border-radius: 0px;
 }
 .hero-button {
   /* position: absolute; */
