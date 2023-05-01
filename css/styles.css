@@ -1,115 +1,155 @@
 :root {
-  /* виношу кольори*/
-  --had-color: ;
-  --hh-menu-color: #2E2F42;
-  --phone-paragraf-color: #434455;
-  --hero-fut-color: #2E2F42;
-  --hero-text-color: #FFFFFF
-  --button-color: #4D5AE5;
-  --text-fut-color: #F4F4FD;
-  }
-body {
-  font-family: "Roboto", "Raleway", sans-serif;
-  color: var(--hh-color);
-  text-align: center;
-}
-.logo-Raleway {
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  /* identical to box height */
+    /* виношу кольори*/
+    --IRIS-logo-buthero: #4D5AE5;
+    --NAVY-BLUE-h-log-menu-hero-foot: #2E2F42;
+    --SLATE-p-mail-phone: #434455;
+    --WHITE-h1-hero:#FFFFFF;
+    --CLOUD-sect3-foot:#F4F4FD;
+    --OCEAN-button-act:#404BBF;
+    --LIGHT-SLATE-img:#8E8F99;
+    --color-img-activ: #AFB1B8;
+    --GREEN-facebook: #31D0AA;
+    --CORNFLOWER-linear-gradient:rgba(0, 0, 0, 0.1);
+    --bleak: #000000;
+    --CORNFLOWER: #E7E9FC;
+    --NAVY-BLUE-modal: #2E2F4266;
+    --GREY-Hero-background: #2E2F42B2;
+    --Dairy-Modal-background: linear-gradient(0deg, rgba(46, 47, 66, 0.4), rgba(46, 47, 66, 0.4)),
+    linear-gradient(0deg, #FCFCFC, #FCFCFC);
+    --White-background: linear-gradient(0deg, rgba(46, 47, 66, 0.4), rgba(46, 47, 66, 0.4)),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    --NAVY-BLUE-Modal-overlay: #2E2F4266;
 
-  letter-spacing: 0.03em;
 }
-/* ol, ul { list-style: none; } */
-.p-col {
-  color: var(--phone-paragraf-color);
-}
-.web-blue {
-  color: var(--button-color);
+body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    color: var(--NAVY-BLUE-h-log-menu-hero-foot);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 .zero {
-  text-decoration: none;
-  list-style: none;
-  font-style: normal;
+    text-decoration: none;
+    list-style: none;
+    font-style: normal;}
+.web-blue {
+    color: var(--IRIS-logo-buthero);
+}
+.logo-Raleway {
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+}
+.text-navi {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.text-mail {
+    color: var(--NAVY-BLUE-h-log-menu-hero-foot);
+}
+.activ-url:hover,
+.activ-url:focus {
+    color: var(--OCEAN-button-act);
 }
 .text-index {
-  /* Effective Solutions for Your Business */
-  
-  
+    /* Effective Solutions for Your Business */
+
     /* position: absolute;
     width: 496px;
     height: 120px;
     left: 472px;
     top: 260px; */
-  
+
     /* Header 1 */
-  
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
     /* or 107% */
-  
+
     text-align: center;
     letter-spacing: 0.02em;
-  
-    /* WHITE */
-  
-    color:#FFFFFF;
- 
+    color: var(--WHITE-h1-hero);
 }
 .hero-index {
-  background: var(--hero-fut-color);
-  
-}
-
-.activ-button:hover,
-.activ-button:focus {
-  color: var(--had-color);
-}
-.text-navi {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
-.text-foot {
-  color: var(--text-fut-color);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  height: 72px;
-  width: 264px;
-  left: 156px;
-  top: 2420px;
-  border-radius: 0px;
+    background: var(--NAVY-BLUE-h-log-menu-hero-foot);
 }
 .hero-button {
-  /* position: absolute; */
-  width: 216px;
-  height: 50px;
-  left: 692px;
-  top: 430px;
-  background: var(--had-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  color: var(--text-fut-color);
+    /* position: absolute; */
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 328px;
+    background: var(--IRIS-logo-buthero);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--WHITE-h1-hero);
+    cursor: pointer
 }
-footer {
-  text-align: left;
-  text-decoration-color: var(--text-fut-color);
-  background: var(--hero-fut-color);
+.portf-button {
+    height: 48px;
+    background: var(--CLOUD-sect3-foot);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border: 1px solid var(--CORNFLOWER)
+border-radius: 4px;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+align-items: center;
+letter-spacing: 0.04em;
+color: var(--IRIS-logo-buthero);
+cursor: pointer
 }
-.text-white {
-  color: var(--text-fut-color);
+.activ-button:hover,
+.activ-button:focus {
+    background: var(--OCEAN-button-act);}
+.activ-p-button:hover,
+.activ-p-button:focus {
+    color: var(--WHITE-h1-hero);
+    background: var(--OCEAN-button-act);}
+.h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
-.text-white-m {
-  color: var(--text-fut-mailphone-color);
+.h3{
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+}
+.sec3{
+    background: var(--CLOUD-sect3-foot) ;
+}
+.foot {
+    text-align: left;
+    color: var(--CLOUD-sect3-foot);
+    background: var(--NAVY-BLUE-h-log-menu-hero-foot);
+}
+.text-foot {
+    color: var(--CLOUD-sect3-foot);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    height: 72px;
+    width: 264px;
+    left: 156px;
+    top: 2420px;
+    border-radius: 0px;
 }
