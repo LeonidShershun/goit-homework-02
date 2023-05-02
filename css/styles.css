@@ -160,9 +160,12 @@ letter-spacing: 0.02em;
 .parag{
     color: #434455
 }
-.sec4{
+.secf{
     background-color: #F4F4FD;
-    background: #F4F4FD
+    background: #F4F4FD;
+}
+.lili{
+    background-color: #FFFFFF;
 }
 .foot {
     text-align: left;
