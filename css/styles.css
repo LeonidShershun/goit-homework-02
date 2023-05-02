@@ -151,6 +151,12 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.02em;
 }
+.hh2-port {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
 .parag{
     color: #434455
 }
