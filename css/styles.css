@@ -158,7 +158,7 @@ letter-spacing: 0.02em;
 }
 .foot {
     text-align: left;
-    color: var(--CLOUD-sect3-foot);
+    color: #f4f4fd;
     background: var(--NAVY-BLUE-h-log-menu-hero-foot);
 }
 .text-foot {
