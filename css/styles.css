@@ -167,7 +167,7 @@ letter-spacing: 0.02em;
 .foot {
     text-align: left;
     color: #f4f4fd;
-    background: #f4f4fd;
+    /* background: #f4f4fd; */
     background-color:#2e2f42
 }
 .text-foot {
