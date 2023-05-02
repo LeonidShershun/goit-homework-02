@@ -154,13 +154,13 @@ letter-spacing: 0.02em;
 .parag{
     color: #434455
 }
-.sec3{
+.sec4{
     background-color: #FFFFFF;
 }
 .foot {
     text-align: left;
     color: #f4f4fd;
-    background: var(--NAVY-BLUE-h-log-menu-hero-foot);
+    background: #f4f4fd;
 }
 .text-foot {
     color: var(--CLOUD-sect3-foot);
