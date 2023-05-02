@@ -22,27 +22,40 @@
 
 }
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: var(--NAVY-BLUE-h-log-menu-hero-foot);
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #434455;
+    background-color:#FFFFFF
 }
-.zero {
+.link {
     text-decoration: none;
     list-style: none;
     font-style: normal;}
-.web-blue {
-    color: var(--IRIS-logo-buthero);
+.web-navi {
+    color: var(--NAVY-BLUE-h-log-menu-hero-foot);
+}
+.list{
+    list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42
 }
 .logo-Raleway {
-    font-family: "Raleway";
+    font-family: "Raleway",sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
+    /* line-height: 21px; */
     letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5
 }
 .text-navi {
     font-weight: 500;
@@ -51,11 +64,13 @@ body {
     letter-spacing: 0.02em;
 }
 .text-mail {
-    color: var(--NAVY-BLUE-h-log-menu-hero-foot);
+    color: #434455;
 }
-.activ-url:hover,
+.activ-url:hover{
+    color: #404bbf
+},
 .activ-url:focus {
-    color: var(--OCEAN-button-act);
+    color: #404bbf;
 }
 .text-index {
     /* Effective Solutions for Your Business */
@@ -72,7 +87,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07
     /* or 107% */
 
     text-align: center;
@@ -84,6 +99,7 @@ body {
 }
 .hero-button {
     /* position: absolute; */
+    font-family: "Roboto", sans-serif;
     width: 169px;
     height: 56px;
     left: 636px;
@@ -120,18 +136,23 @@ cursor: pointer
 .activ-p-button:focus {
     color: var(--WHITE-h1-hero);
     background: var(--OCEAN-button-act);}
-.h2{
+.hh2{
     font-size: 36px;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.02em;
     text-align: center;
+    line-height: 1.11;
+    text-transform: capitalize;
 }
-.h3{
+.hh3{
 font-size: 20px;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.02em;
+}
+.parag{
+    color: #434455
 }
 .sec3{
     background: var(--CLOUD-sect3-foot) ;
