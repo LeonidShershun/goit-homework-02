@@ -136,7 +136,7 @@ cursor: pointer;
 .activ-p-button:focus {
     color: var(--WHITE-h1-hero);
     background: var(--OCEAN-button-act);}
-.hh2{
+.hhdd{
     font-size: 36px;
     font-weight: 700;
     line-height: 40px;
@@ -145,7 +145,7 @@ cursor: pointer;
     line-height: 1.11;
     text-transform: capitalize;
 }
-.hh3{
+.hhtt{
 font-size: 20px;
 font-weight: 500;
 line-height: 24px;
